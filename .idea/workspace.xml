@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8961deb7-e0dd-47b7-8acf-a45a986471c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tables.sql" afterPath="$PROJECT_DIR$/tables.sql" />
     </list>
     <ignored path="crawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -264,12 +266,12 @@
       <workItem from="1470708552176" duration="41670000" />
       <workItem from="1470820860648" duration="45017000" />
       <workItem from="1471145549375" duration="81000" />
-      <workItem from="1471145734196" duration="181000" />
+      <workItem from="1471145734196" duration="892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180477000" />
+    <option name="totallyTimeSpent" value="181188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
