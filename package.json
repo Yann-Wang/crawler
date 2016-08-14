@@ -1,0 +1,25 @@
+{
+  "name": "sina-blog-crawler",
+  "version": "1.0.0",
+  "description": "网络爬虫与数据库操作",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wyn",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.1",
+    "cheerio": "^0.20.0",
+    "cron": "^1.1.0",
+    "debug": "^2.2.0",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "fs-extra": "^0.30.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "node-qiniu": "^6.2.0",
+    "qiniu": "^6.1.11",
+    "request": "^2.74.0"
+  }
+}
