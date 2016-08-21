@@ -3,6 +3,31 @@
 - 该项目以＜＜Node.js实战＞＞(赵坤,寸志,雷宗民,吴中骅著)这本书的第６章为原型.
 - 爬取的站点是[柳絮同学的新浪博客](http://blog.sina.com.cn/u/1776757314). 
 
+## 启动
+- 爬取页面部分
+
+```shell
+cd update
+node all.js
+```
+
+- 展示页面部分
+
+```shell
+cd web
+node ./bin/www
+```
+
+
+## main package
+- 爬取页面部分
+  
+    request, async, mysql, node-qiniu
+  
+- 展示页面部分
+
+    express, cron, mysql
+
 ## features
 
 #### 将博客中的文章存储在本地文件系统中
