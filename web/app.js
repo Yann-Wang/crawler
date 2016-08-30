@@ -3,9 +3,11 @@ const debug   = require('debug')('blog:web:app');
 const path    = require('path');
 const read    = require('./read');
 const config  = require('../config');
-const spawn   = require('child_process').spawn;
-const cronJob = require('cron').CronJob;
+//const spawn   = require('child_process').spawn;
+//const cronJob = require('cron').CronJob;
 const fs      = require('fs-extra');
+
+const Image   = require('./routes/Image');
 
 //export DEBUG=blog:web:*
 //启动：node ./web/bin/www
@@ -50,7 +52,9 @@ app.get('/article/:id', function (req, res, next) {
     });
 });
 
+app.use('/img',Image);
 
+/*
 //定时执行更新任务
 var job = new cronJob(config.autoUpdate, function () {
     debug('开始执行定时更新任务');
@@ -63,7 +67,7 @@ var job = new cronJob(config.autoUpdate, function () {
 });
 
 job.start();
-
+*/
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -6,7 +6,7 @@ const mysql = require('mysql');
 
 //连接池
 exports.db = mysql.createPool({
-    host: '192.168.68.144',
+    host: '192.168.68.128',
     database: 'sina_blog',
     user:  'root',
     password: 'root',
